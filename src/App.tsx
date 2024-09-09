@@ -1,7 +1,11 @@
+import HomePage from "./Components/HomePage";
+import Navbar from "./Components/Navbar";
+
 const App = () => {
   return (
-    <div className="bg-zinc-900 text-white text-9xl w-full min-h-screen font-inter leading-none">
-      Project initialization.
+    <div className="text-9xl w-full min-h-screen font-inter leading-none bg-gradient-to-tr">
+      <Navbar />
+      <HomePage />
     </div>
   );
 };

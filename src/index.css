@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 .font-inter {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-optical-sizing: auto;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

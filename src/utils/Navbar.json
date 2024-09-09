@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "phone": {
+      "width": { "max": "425px", "min": "320px" },
+      "height": null,
+      "links": { "visibility": false },
+      "icons": { "visibility": true }
+    },
+    "tablet": {
+      "width": { "max": "768px", "min": "426px" },
+      "height": null,
+      "links": { "visibility": false },
+      "icon": { "visibility": true }
+    },
+    "laptop": {
+      "width": { "max": "1440px", "min": "769px" },
+      "height": null,
+      "links": { "visibility": true },
+      "icon": { "visibility": true }
+    },
+    "desktop": {
+      "width": { "max": "2560px", "min": "1024px" },
+      "height": null,
+      "links": { "visibility": true },
+      "icon": { "visibility": true }
+    },
+    "brand": "Apple",
+    "links": [
+      { "label": "Home", "url": "/" },
+      { "label": "Store", "url": "/store" },
+      { "label": "Mac", "url": "/product/mac" },
+      { "label": "iPad", "url": "/product/ipad" },
+      { "label": "iPhone", "url": "/product/iphone" },
+      { "label": "Watch", "url": "/product/watch" },
+      { "label": "Vision", "url": "/product/apple-vision-pro" },
+      { "label": "AirPods", "url": "/product/airpods" },
+      { "label": "TV & Home", "url": "/product/home/:id" },
+      { "label": "Support", "url": "/support" }
+    ]
+  }
+}
